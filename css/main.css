@@ -1112,7 +1112,7 @@ body{
     margin-bottom: 247px;
     
 }
-.connection_wrapper{
+.connection__wrapper{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1185,6 +1185,9 @@ body{
 .connection__i-big{
     margin-top: 15px;
     margin-left: 165px;
+    width: 307px;
+    height: 165px;
+    resize: none;
     padding:16px 45px 14px 22px ;
     font-weight: 400;
     font-size: 16px;
@@ -1195,7 +1198,7 @@ body{
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    color: #949494;
+    color: #333333;
 }
 .connection__btn{
     margin-top: 30px;
