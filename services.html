@@ -94,7 +94,7 @@
                             </a>
                         </li>
                     </ul>
-                    <a class="bottom__bt" href="#">Задать вопрос</a>
+                    <button class="bottom__bt" href="#">Задать вопрос</button>
                 </div>
             </div>
         </div>
@@ -275,5 +275,46 @@
                         </footer>
                         <!-- END OF SITE FOOTER -->
                         
+
+                            <!-- start modal -->
+      <section class="modal">
+        <div class="container">
+          <div class="moadal__wrap">
+            <button class="modal__close-btn"></button>
+              <div class="modal__left-box">
+                <strong class="modal__big-text">Авторизация:</strong>
+                <a class="modal__link-gogle" href="">Войти через Google</a>
+                <a class="modal__link-facebook" href="">Войти через Facebook</a>
+            </div>
+            <div class="modal__right-box">
+                <h2 class="modal__title">Задать вопрос</h2>
+                <form class="modal__follow" action="https://echo.htmlacademy.ru" method="post">
+                    <label class="modal__label">
+                    <input
+                    class="modal__i" 
+                    type="name"
+                    name="user_name" 
+                    placeholder="Ваше имя" 
+                    aria-label="Please enter your name"
+                    minlength="3">
+                </label>
+                <label class="modal__label">
+                   <textarea
+                   name="user_question" 
+                   class="modal__i-big"  
+                   aria-label="enter your question"
+                   placeholder="Опишите Ваш вопрос.                                     Например: в каком возрасте можно прививать от бешенства?"></textarea>
+                </label>
+    
+                <button class="modal__btn" type="submit">Отправить </button>
+                </form>
+            </div>
+          </div>
+        </div>
+    </section>
+        <!-- end of modal -->
+    
+
+        <script src="./js/main.js"></script>
                     </body>
                     </html>
