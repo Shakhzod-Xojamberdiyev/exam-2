@@ -799,7 +799,7 @@ body{
 .services__price{
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: inline-flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -839,7 +839,7 @@ body{
     padding: 15px 36px 15px 30px;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: inline-flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -2315,6 +2315,262 @@ body{
     line-height: 22px;
     color: #949494;
 }
+
+
+
+/* CHECK SECTION */
+
+.hero-check__box{
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/osmotr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.check{
+    margin-top: 33px;
+}
+.check__wrapper{
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.check__text-box{
+    
+}
+.check__list{
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+.check__item{
+    
+}
+.check__link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #949494;
+}
+.check__link-black{
+    color: black;
+}
+.check__item:nth-child(2)::before {
+    content: "";
+    margin-right: 9px;
+    margin-left: 9px;
+    margin-bottom: 2px;
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #FFBD54;
+}
+.check__item:nth-child(2)::after {
+    content: "";
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-bottom: 2px;
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #FFBD54;
+}
+.check__title{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+}
+.check__yellow{
+    color: #FFBD54;
+}
+.check__text{
+    padding-bottom: 10px;
+    width: 638px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #949494;
+}
+.check__text-small{
+    width: 492px;
+}
+.check__links{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    
+}
+.check__list-new{
+    padding-left: 0;
+}
+.check__item-new{
+    margin-bottom: 15px;
+    width: 305px;
+    list-style: none;
+    background: #FEFEFE;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+}
+.check__item-new:hover{
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.check__img{
+    
+}
+.check__time{
+    padding-top: 15px;
+    padding-right: 15px;
+    display: block;
+    text-align: end;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #949494;
+}
+.check__new-title{
+    padding-left: 30px;
+    width: 193px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+}
+.check__text-new{
+    padding-left: 30px;
+    width: 270px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.check__link-new{
+    padding-bottom: 37px;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+.check__link-new:hover{
+    color: #FFBD54;
+}
+.check__link-new::before{
+    content: "";
+    display: inline-block;
+    background-image: url(../images/paw.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+}
+
+.write{
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 180px;
+    width: 100%;
+    height: 100%;
+background-image: url("../images/osmotrnext.png");
+}
+.write__wrap{
+    margin-left: 100px;
+display: flex;
+}
+.write__text-box{
+    padding-top: 74px;
+    padding-bottom: 272px;
+width: 276px;
+}
+.write__title{
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.write__text{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.write__right-box{
+    margin-left: 60px;
+    margin-top: 64px;
+    margin-bottom: 65px;
+
+}
+.write__follow{
+
+}
+.write__label{
+    display: block;
+}
+.write__i{
+    padding-left: 15px;
+    width: 335px;
+    height: 50px;
+    margin-top: 15px;
+    border: 1px solid transparent;
+    outline: none;
+}
+.write__i:not(:placeholder-shown):not(:focus):invalid{
+    color: #FA5959;
+    border: 1px solid #FA5959;
+}
+.write__i-big{
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 335px;
+    height: 165px;
+    margin-top: 15px;
+    border: 1px solid transparent;
+    outline: none;
+}
+.write__btn{
+    margin-top: 27px;
+    padding: 15px 60px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 0px;
+    border: none;
+    cursor: pointer;
+}
+.write__img{
+    position: absolute;
+    top: calc(50% - 358px);
+    left: calc(50%);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* MODAL SECTION */
