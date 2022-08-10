@@ -2330,6 +2330,7 @@ body{
 }
 .check{
     margin-top: 33px;
+    overflow: hidden;
 }
 .check__wrapper{
     margin-left: 150px;
@@ -2623,7 +2624,7 @@ width: 276px;
         margin-top: -40%;
     }
 }
-.moadal__wrap{
+.modal__wrap{
     display: flex;
     
 }
