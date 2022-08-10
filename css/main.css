@@ -893,7 +893,7 @@ body{
 }
 .site-article__img{
     position: absolute;
-    top: calc(50% - 254px);
+    top: calc(50% - 256px);
     left: calc(50% + 20px);
     
 }
@@ -2159,6 +2159,162 @@ body{
 }
 
 
+
+/* CLINIC PAGE */
+.about-clinic{
+    background-image: url("../images/about-paws.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 350px) calc(50% + 157px);
+}
+.about-clinic__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.about-clinic__text-box{
+    margin-top: 177px;
+    margin-left: 100px;
+    width: 411px;
+}
+.about-clinic__title{
+    padding-bottom: 22px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+}
+.about-clinic__text{
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #949494;
+}
+
+.about-new{
+    
+}
+.about-new__wrap{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-new__text{
+    width: 557px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #949494;
+}
+.about-new__yellow{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFBD54;
+}
+.about-new__wrap-new{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../images/clinicdog.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 300px);
+}
+.about-new__text-box{
+    width: 494px;
+    margin-top: 110px;
+    margin-bottom: 220px;
+    margin-left: 177px;
+}
+.about-new__text-new{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.about-new__blue{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #78C0DE;
+}
+
+.clinic-hair{
+    
+}
+.clinic-hair__wrap{
+    margin-bottom: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.clinic-hair__text-box{
+    width: 416px;
+}
+.clinic-hair__title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 48px;
+    color: #333333;
+}
+.clinic-hair__yellow{
+    color: #FFBD54;
+}
+.clinic-hair__text{
+    width: 343px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+.clinic-hair__btn-wrap{
+    display: flex;
+}
+.clinic-hair__btn{
+    
+}
+.clinic-hair__btn-left{
+    margin-top: 100px;
+    border: none;
+    background: transparent;
+}
+.clinic-hair__btn-right{
+    padding-left: 64px;
+    border: none;
+    background: transparent;
+}
+.clinic-hair__list{
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+.clinic-hair__item{
+    
+}
+.clinic-hair__img{
+    
+}
+.clinic-hair__s-box{
+    margin-top: 90px;
+    margin-left: 75px;
+}
+.clinic-hair__sup{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #333333;
+}
+.clinic-hair__sub{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #949494;
+}
 
 
 /* MODAL SECTION */
